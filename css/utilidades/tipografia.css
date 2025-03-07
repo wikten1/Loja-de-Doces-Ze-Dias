@@ -1,0 +1,76 @@
+.font-1-gg {
+    font: 400 5rem/1 "Playfair Display", serif;
+}
+
+.font-1-gg-m {
+    font: 500 5rem/1 "Playfair Display", serif;
+}
+
+.font-1-g {
+    font: 400 4rem/1 "Playfair Display", serif;
+}
+
+.font-1-g-sb {
+    font: 600 4rem/1 "Playfair Display", serif;
+}
+
+.font-1-m {
+    font: 400 3rem/1 "Playfair Display", serif;
+}
+
+.font-1-m-sb {
+    font: 800 3rem/1 "Playfair Display", serif;
+}
+
+.font-1-p-m {
+    font: 500 1.5rem/1 "Playfair Display", serif;
+}
+
+/*FONT 2*/
+
+.font-2-gg-b {
+    /* Bold */
+    font: 700 1.75rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-g-sb {
+    /* SemiBold */
+    font: 600 1.25rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-gm-sb {
+    /* SemiBold */
+    font: 600 0.938rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-m {
+    /* Medium */
+    font: 500 1.5rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-m-r {
+    /* Regular  */
+    font: 400 2rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-pm {
+    /* Regular */
+    font: 400 1.5rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-pm {
+    /* Regular */
+    font: 400 1.5rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-p-l {
+    /* Light */
+    font: 300 2rem/1 "Work Sans", sans-serif;
+}
+
+.font-2-p-l {
+    /* Light */
+    font: 300 1.25rem/1 "Work Sans", sans-serif;
+}
+
+/*MOBILE */
