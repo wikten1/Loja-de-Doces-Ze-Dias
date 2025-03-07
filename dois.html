@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .menu {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            transition: font-weight 0.3s ease;
+        }
+        
+        .menu a:hover {
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .menu {
+                flex-direction: column;
+                align-items: center;
+            }
+            .menu a {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Serviços</a>
+        <a href="#">Contato</a>
+    </nav>
+</body>
+</html>

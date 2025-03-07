@@ -1,3 +1,39 @@
-header-bg {
-    background-color: ;
+.header-bg {
+    background-color: var(--cor-s3);
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px 0px 20px 0px;
+}
+
+.area-login {
+    display: flex;
+}
+
+.header-bg nav {
+    background-color: var(--cor-p4);
+    display: flex;
+    padding: 40px 0;
+}
+
+.header-bg nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 20px 80px;
+}
+
+.header-bg nav ul li {
+    width: 150px;
+    text-align: center;
+}
+
+
+.header-bg nav ul li:hover {
+    font-weight: 400;
 }
