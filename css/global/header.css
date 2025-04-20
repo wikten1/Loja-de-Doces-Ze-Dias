@@ -11,9 +11,22 @@
     padding-top: 20px 0px 20px 0px;
 }
 
-.area-login {
+.area-login a {
     display: flex;
+    gap: 10px;
+    align-items: center;
 }
+
+.area-login a button {
+    padding: 0px 20px;
+    height: 30px;
+    background-color: var(--cor-p1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
 .header-bg nav {
     background-color: var(--cor-p4);
