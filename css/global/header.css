@@ -26,6 +26,10 @@
     cursor: pointer;
 }
 
+[data-menu="buttonMenu"] {
+    display: none;
+}
+
 
 
 .header-bg nav {
@@ -49,4 +53,47 @@
 
 .header-bg nav ul li:hover {
     font-weight: 400;
+}
+
+@media (max-width: 950px){
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    .area-login img {
+        display: none;
+    }
+
+    
+}
+
+@media (max-width: 800px){
+    .header {
+        gap: 10px;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+    }
+
+    .logoHeader {
+        width: 100px;
+    }
+
+    .area-login a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    [data-menu="buttonMenu"] {
+        display: initial;
+    }
+
+    .header-bg nav {
+        max-height: 5px;
+    }
+
+    .header-bg nav ul{
+        display: none;
+    }
 }
