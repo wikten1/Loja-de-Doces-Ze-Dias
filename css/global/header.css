@@ -106,6 +106,7 @@
 
     [data-menu="list"].active {
         display: block;
+        animation: show-right .3s forwards;
     }
 
     .header-bg nav {
