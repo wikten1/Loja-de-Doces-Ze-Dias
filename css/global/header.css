@@ -11,13 +11,13 @@
     padding-top: 20px 0px 20px 0px;
 }
 
-.area-login a {
+.area-login {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.area-login a button {
+.area-login button {
     padding: 0px 20px;
     height: 30px;
     background-color: var(--cor-p1);
@@ -25,6 +25,7 @@
     border: none;
     cursor: pointer;
 }
+
 
 [data-menu="buttonMenu"] {
     display: none;
@@ -80,7 +81,7 @@
         width: 100px;
     }
 
-    .area-login a {
+    .area-login {
         display: flex;
         flex-direction: column;
     }
@@ -102,5 +103,25 @@
 @media (max-width: 600px){
     .header h1 {
         font-size: 2rem;
+    }
+}
+
+@media (max-width: 400px){
+    .header {
+        gap: 5px;
+    }
+
+    .logoHeader {
+        width: 80px;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+        width: 150px;
+        text-align: center;
+    }
+
+    .area-login button{
+        height: 25px;
     }
 }
