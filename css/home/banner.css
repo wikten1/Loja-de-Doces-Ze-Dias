@@ -1,0 +1,74 @@
+.banner-bg {
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  border-top: 20px solid #FDDD86;
+  border-right: 10px solid #FDDD86;
+  border-bottom: 20px solid #FDDD86;
+  border-left: 10px solid #FDDD86;
+  overflow: hidden;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../../img/Design\ sem\ nome\ 1.png) center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.5rem;
+  color: var(--text-color);
+  text-shadow: 1px 1px 3px var(--shadow-color);
+  min-height: 400px;
+  color: var(--cor-0);
+}
+
+.titulo-banner {
+  font-size: 2.6rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.descricao-banner {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .banner {
+    padding: 2rem;
+    min-height: 350px;
+  }
+
+  .titulo-banner {
+    font-size: 2.2rem;
+  }
+
+  .descricao-banner {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-bg {
+    border-width: 8px;
+  }
+
+  .banner {
+    padding: 1.5rem;
+    min-height: 300px;
+  }
+
+  .titulo-banner {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .descricao-banner {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
