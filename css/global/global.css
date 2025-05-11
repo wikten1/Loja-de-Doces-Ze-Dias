@@ -6,8 +6,9 @@
 
 main {
   display: flex;
-  justify-content: center;
+  align-items: center;
   background-color: var(--cor-p1);
+  flex-direction: column;
 }
 
 ul {
