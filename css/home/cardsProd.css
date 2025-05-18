@@ -6,24 +6,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   margin: 80px 0;
+  position: relative;
 }
 
 .img-prod {
   max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
   position: relative;
-  left: -150px;
+  right: -20px;
 }
 
 .prod-conteudo {
-  max-width: 500px;
-  max-height: 300px;
   background-color: var(--cor-p2);
-  padding: 60px 90px;
+  max-width: 50%;
+  padding: 30px 45px;
   border-radius: 8px;
-  position: absolute;
-  right: -150px;
+  position: relative;
+  z-index: 1;
+  left: -40px;
 }
 
 .prod-conteudo h2 {
@@ -44,16 +46,17 @@
 }
 
 @media (max-width: 800px){
-  .img-prod {
-    left: -60px;
-    z-index: 1;
-    max-width: 400px;
-    position: relative;
+  .produto {
+    flex-direction: column;
   }
 
-  .prod-conteudo {
-    left: 80px;
-    top: 240px;
-    position: relative;
+  .img-prod {
+    right: 80px;
+    z-index: 1;
+  }
+
+  .prod-conteudo{
+    top: -50px;
+    left: 150px;
   }
 }
