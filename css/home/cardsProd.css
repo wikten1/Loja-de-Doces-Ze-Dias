@@ -2,20 +2,16 @@
   max-width: 1300px;
 }
 
-.produto {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 80px 0;
-  position: relative;
-}
+.produto:nth-child(odd) .img-prod { left: -20px; } 
+
 
 .img-prod {
   max-width: 500px;
+  right: -20px;
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  right: -20px;
+  
 }
 
 .prod-conteudo {
