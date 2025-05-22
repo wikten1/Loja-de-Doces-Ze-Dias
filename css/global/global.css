@@ -27,10 +27,3 @@ ul {
     height: auto;
     display: inline-block;
   }
-
-  .btn1 {
-    background-color: var(--cor-p3);
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: 1px solid #D7A62F;
-  }
