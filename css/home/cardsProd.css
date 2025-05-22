@@ -10,6 +10,8 @@
   position: relative;
 }
 
+.produto:nth-child(odd) .img-prod { left: -20px; }
+
 .img-prod {
   max-width: 500px;
   width: 100%;
@@ -17,6 +19,9 @@
   position: relative;
   right: -20px;
 }
+
+.produto:nth-child(even) .img-prod { left: -20px; }
+.produto:nth-child(even) .prod-conteudo {left: 0px;}
 
 .prod-conteudo {
   background-color: var(--cor-p2);
@@ -60,6 +65,16 @@
     top: -30px;
     left: 120px;
   }
+
+  .produto:nth-child(even) .img-prod { 
+    order: 1; 
+    left: 120px;
+  }
+
+  .produto:nth-child(even) .prod-conteudo {
+    order: 2;
+    left: -25px;
+  }
 }
 
 @media (max-width: 520px) {
@@ -73,6 +88,14 @@
     left: 40px;
     top: -15px;
     max-width: 60%;
+  }
+
+  .produto:nth-child(even) .img-prod { 
+    left: 40px;
+  }
+
+  .produto:nth-child(even) .prod-conteudo {
+    right: 30px;
   }
 
   .prod-conteudo h2{
